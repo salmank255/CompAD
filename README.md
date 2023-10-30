@@ -1,6 +1,10 @@
 # A Hybrid Graph Network for Complex Activity Detection in Video
+***Salman Khan***, ***Izzeddin Teeti***, ***Andrew Bradley***, ***Mohamed Elhoseiny***, ***Fabio Cuzzolin***
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-FFF933)](https://arxiv.org/abs/2310.17493)
 
-<!-- ![Framework](./figs/framework.png) -->
+<p align="center">
+     <img src=./figs/framework.png > 
+</p>
 
 ## Overview
 Complex Activity Detection (CompAD) is an important computer vision task with direct applications to a variety of domains, including autonomous driving and sports analytics. CompAD can be seen as the advanced version of Temporal Action Localisation (TAL), which aims to recognise what actions take place in a video and identify their start and end time. While TAL mostly focuses on short-term actions, CompAD extends the analysis to long-term activities, and does so by modeling a complex video activity’s internal structure. In this paper, we address the CompAD problem using a hybrid graph neural network which combines attention applied to a graph encoding the local (short term) dynamic scene with a temporal graph modelling the overall long-duration activity. Our contribution is threefold. i) Firstly, we propose a novel feature extraction technique which, for each video snippet, generates spatiotemporal ‘tubes’ for the active elements (‘agents’) in the (local) scene by detecting individual objects, tracking them and then extracting 3D features from all the agent tubes as well
