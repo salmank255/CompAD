@@ -1,0 +1,3 @@
+# add these requirements in your app on top of the existing ones
+Flask==1.0.2
+gunicorn==19.9.0
