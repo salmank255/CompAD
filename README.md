@@ -54,3 +54,15 @@ python main.py --Data_Root=Datasets --Save_Root=Trained_models --Mode=train --Da
 ![Tracking and scene graph](./figs/tracking_scene_g.png)
 
 ![Visual results](./figs/qaul_res.png) -->
+
+
+## Citation
+
+```bibtex
+@InProceedings{khan2023hybrid,
+      title={A Hybrid Graph Network for Complex Activity Detection in Video}, 
+      author={Salman Khan and Izzeddin Teeti and Andrew Bradley and Mohamed Elhoseiny and Fabio Cuzzolin},
+      booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+      year={2024}
+}
+```
